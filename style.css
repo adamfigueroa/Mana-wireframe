@@ -1,0 +1,264 @@
+/* -------------- Section Widths ------------ */
+
+.Landing-Page {
+  min-height: 670px;
+}
+
+.Login-Page {
+  min-height: 300px;
+}
+
+.Dash-Board {
+  min-height: 800px;
+}
+
+/* -------------- Nav Bar ------------------- */
+
+.mainNavBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+
+.logoTag {
+  font-size: 10px;
+}
+
+.navBar {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.navBtn {
+  padding: 0px 15px 0px 15px;
+}
+
+/* ---------------Landing Page --------------- */
+
+.landingTextBox,
+.loginFormBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.landingText {
+  max-width: 80%;
+}
+
+/* ------------ Form Styling ---------------  */
+
+.registerForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.LoginFormBox {
+  min-width: 80%;
+  min-height: 250px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 250px;
+  margin-top: 15px;
+}
+
+.InputBox {
+  padding: 8px;
+}
+
+#registration-name-input,
+#registration-username-input,
+#registration-password-input,
+#login-username-input,
+#login-password-input {
+  border: black 2px solid;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.btnBox {
+  padding: 18px;
+}
+
+/* ---------- Dashboard Styling ------------ */
+
+.dashBoardBox {
+  border: solid black 3px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* -------- LEFT SIDE Dashboard Styling ------ */
+
+.calendar-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-right: 2px black solid;
+  min-width: 25%;
+}
+
+/* ------- Hamburger Menu -------- */
+.burger-line {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  border-radius: 15%;
+  margin-bottom: 3px;
+}
+
+/* --------- Menu Bar ----------- */
+
+.dash-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px 0px 10px;
+  border-bottom: 2px solid black;
+}
+
+.mana-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.mana-title {
+  font-size: 30px;
+  padding-right: 5px;
+}
+
+.mana-img {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+/* ---------- Detailed Day --------- */
+
+.dayBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8px;
+}
+
+.num-date {
+  font-size: 30px;
+  font-weight: 900;
+  margin: 0px;
+}
+
+.day {
+  margin: 0px;
+}
+
+.todays-practice {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px 0px 10px;
+  margin-bottom: 10px;
+}
+
+.check-list-goals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.goal-box {
+  padding: 8px;
+}
+
+/* -------- RIGHT SIDE Dashboard Styling ------ */
+
+.calendar-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  min-width: 75%;
+}
+
+.year-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right: 10px;
+  align-items: center;
+}
+
+.year {
+  font-size: 20px;
+  padding: 0px 10px 0px 10px;
+}
+
+.triangle-left {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-right: 10px solid black;
+  border-bottom: 5px solid transparent;
+}
+
+.triangle-right {
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-left: 10px solid black;
+  border-bottom: 5px solid transparent;
+}
+.triangle-left:hover {
+  border-right: 10px solid#2ECC71;
+}
+.triangle-right:hover {
+  border-left: 10px solid#2ECC71;
+}
+
+.months {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.days {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.num-dates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.first-week,
+.second-week,
+.third-week,
+.fourth-week,
+.fifth-week,
+.sixth-week {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 100%;
+}
