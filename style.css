@@ -8,8 +8,8 @@
   min-height: 300px;
 }
 
-.Dash-Board {
-  min-height: 800px;
+.Dash-Board, .add-practice-page {
+  min-height: 600px;
 }
 
 /* -------------- Nav Bar ------------------- */
@@ -80,11 +80,7 @@
   padding: 8px;
 }
 
-#registration-name-input,
-#registration-username-input,
-#registration-password-input,
-#login-username-input,
-#login-password-input {
+input {
   border: black 2px solid;
   border-left: none;
   border-right: none;
@@ -108,7 +104,6 @@
 .calendar-left {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   border-right: 2px black solid;
   min-width: 25%;
 }
@@ -262,3 +257,48 @@
   justify-content: space-evenly;
   min-width: 100%;
 }
+
+.day-dot {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 8px;
+}
+
+.day-dot:hover {
+  background-color: black;
+  color: white;
+}
+
+/* ---------- Add Practice Page Styling ---------*/
+
+.add-practice-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 100%;
+  padding: 0px 10px 0px 10px;
+}
+
+.choose-day-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.choose-day {
+  display: flex;
+  align-items: center;
+  min-width: 100%;
+  justify-content: space-evenly;
+  margin-bottom: 15px;
+}
+
+.day-checkbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
