@@ -1,4 +1,7 @@
 /* -------------- Section Widths ------------ */
+body {
+  min-width: 100%;
+}
 
 .Landing-Page {
   min-height: 670px;
@@ -43,6 +46,10 @@
 }
 
 /* ---------------Landing Page --------------- */
+
+.Landing-Page {
+  min-width: 100%;
+}
 
 .landingTextBox,
 .loginFormBox {
@@ -97,6 +104,16 @@ input {
   border: solid black 3px;
   display: flex;
   flex-direction: row;
+}
+
+@media only screen and (max-width: 700px) {
+  .dashBoardBox {
+    flex-direction: column;
+  }
+
+  .wake-up, .todays-practice-title {
+    align-self: center;
+  }
 }
 
 /* -------- LEFT SIDE Dashboard Styling ------ */
@@ -180,6 +197,8 @@ input {
 .goal-box {
   padding: 8px;
 }
+
+
 
 /* -------- RIGHT SIDE Dashboard Styling ------ */
 
@@ -298,6 +317,31 @@ input {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .dayBox, .todays-practice {
+    display: none;
+  }
+
+  .add-practice-form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .InputBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .choose-day {
+    flex-direction: column;
+  }
+
+  .submitBtn {
+    margin-bottom: 20px;
+  }
 }
 
 
